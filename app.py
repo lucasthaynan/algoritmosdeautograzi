@@ -6,6 +6,7 @@ from flask import Flask, request
 from oauth2client.service_account import ServiceAccountCredentials
 from tchan import ChannelScraper
 
+token='5806060676:AAFUiolOwcfmlfvRUO4PLgTJpQuvfh1rprI'
 @app.route("/telegram-bot", methods=["POST"])
 def telegram_bot():
   hoje = datetime.now().strftime('%d-%m-%Y')
