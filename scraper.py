@@ -1,5 +1,4 @@
 import requests
-import json 
 
 def coleta():
     link = 'https://agenciatatu.com.br/wp-json/wp/v2/posts'
