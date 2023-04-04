@@ -19,11 +19,6 @@ sheet = planilha.worksheet("Página1")
 app = Flask(__name__)
 
 @app.route("/")
-import requests
-import json
-import pandas as pd
-from datetime import date
-
 # Função para coletar notícias do site da Agência Tatu
 def coleta():
     link = 'https://agenciatatu.com.br/wp-json/wp/v2/posts'
