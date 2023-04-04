@@ -17,7 +17,8 @@ app = Flask(__name__)
 
 
 @app.route("/")
-
+def index():
+  return menu + "Olá, mundo! Esse é meu site. (Graziela França)"
 
            
            
