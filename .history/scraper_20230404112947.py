@@ -1,6 +1,4 @@
 import requests
-
-from datetime import date
 import json 
 import pandas as pd
 
@@ -111,5 +109,5 @@ def coleta():
     dftotal = pd.concat([df_dados, df_dados_marco, df_dados_eco],  
                    ignore_index = True,
                    sort = False)
-    print(dftotal)
+
 coleta()

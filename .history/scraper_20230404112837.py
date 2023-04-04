@@ -1,9 +1,5 @@
 import requests
 
-from datetime import date
-import json 
-import pandas as pd
-
 def coleta():
     link = 'https://agenciatatu.com.br/wp-json/wp/v2/posts'
     requisicao = requests.get(link)
@@ -111,5 +107,3 @@ def coleta():
     dftotal = pd.concat([df_dados, df_dados_marco, df_dados_eco],  
                    ignore_index = True,
                    sort = False)
-    print(dftotal)
-coleta()

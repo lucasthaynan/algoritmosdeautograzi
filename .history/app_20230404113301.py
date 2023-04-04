@@ -17,7 +17,7 @@ from scraper import coleta
 # api = gspread.authorize(conta)
 # planilha = api.open_by_key(GOOGLE_SHEETS_KEY)
 # sheet = planilha.worksheet("Página1")
-app = Flask(__name__)
+# app = Flask(__name__)
 
 
 
